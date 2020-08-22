@@ -1,0 +1,29 @@
+--Multiple Linear Regression Results
+In this multiple linear regression model, the variables contributing a non-zero amount of variance to the mpg values in the dataset are: 
+vehicle length, vehicle weight, and ground clearance. We can confirm these results by observing that the p values for each variable is below our significance level.
+This model has a very high r-squared value of 0.7149. This value is significant for two reasons. First, it indicates that the slope of the line is not zero.
+A zero slope implies that the data is distributed randomly and our model is not effective at prediction. This is not the case due to the high r-squared value. 
+In addition, the high r-squared value indicates that the model does a strong job at predicting the mpg of the MechaCar prototypes.
+
+--Suspension Coil Summary Statistics
+From the summary statistics analysis for the suspension coils, I found the following summary statistics for the PSI data.
+Mean: 1500
+Median: 1500
+Standard Deviation: 8.73
+Variance: 76.23
+There is a current manufacturing design specification that mandates that the variance of the suspension coils PSI must not exceed 100 PSI.
+Our data fits this specification, as the variance of this sample is only 76.23.
+
+--Suspension Coil T-Test
+In this test, I tested to see whether the suspension coil's pound-per-inch results are statistically different from the mean population result of 1500. 
+To test this, I used a null hypothesis of: there is no difference between the sample and population means.
+And, the alternative of hypothesis of : there is a difference between the sample and population means.
+My t-test produced a p value of 0.5517. Thus indicating that there is no statistical difference between the sample and population means.
+
+--Study 
+For this study, I am examining the sales performance of the MechaCar prototype in comparison to its competitors in the market. What I will measure will be the average time each car spends 
+on the lot before it is sold. This will work as an indicator of demand for each car. I will then look at the following factors: price, fuel efficiency, and drive train. I will then performance
+a multiple linear regression for the MechCar prototype, where time spent on the lot is the dependent variable, and the independent variables will be: price, fuel efficiency, and drive train.
+I will use the multiple linear regression model to examine the impact--if any--that each of these variables have over the average time spent on the lot for a MechaCar prototype. This analysis
+will provide me with a fundamental understanding of the demand factors impacting the sales performance of the MechaCar prototype. In order to perform this analysis, I will need to collect a 
+sufficient amount of data pertaining to time on lot, price, fuel efficiency, and drive train for the prototypes.
